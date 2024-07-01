@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Zen Spa</title>
+    <meta name="author" content="Filip Cokovski">
+    <meta name="description" content="Zen Spa - Mesto za vrhunsko opuštanje i negu. Nudimo masažne terapije, tretmane lica i još mnogo toga. Posetite nas i uživajte u našem mirnom i relaksirajućem okruženju.">
+    <meta name="keywords" content="Zen Spa, masažna terapija, tretmani lica, opuštanje, spa centar, wellness, masaže, tretmani kože, relaksacija, lepota, spa usluge">
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="kontakt-header-slika">
+            <div class="omotac">
+                <div class="logo">
+                    <a href="../pocetna/pocetna.html"><img src="../slike/logo.png" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../pocetna/pocetna.html" target="_blank">Početna</a></li>
+                        <li><a href="../onama/onama.html" target="_blank">O nama</a></li>
+                        <li><a href="../usluge/usluge.html" target="_blank">Usluge</a></li>
+                        <li><a href="#" class="ovde">Kontakt</a></li>
+                        <li><a href="../galerija/galerija.html" target="_blank">Galerija</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="kontakt-header-naslov">
+                <h1>Formular</h1>
+            </div>
+        </div>
+    </header>
+
+    <div class="kontakt-main">
+        <div class="kontakt-omotac">
+            <div class="kontakt-formular-naslov">
+            <p>Molimo vas da ispunite formular ispod da nas kontaktirate. Rado ćemo čuti vaše mišljenje!</p>
+        </div>
+            <form class="kontakt-forma" action="/submit_inquiry"  method="post">
+                <div class="label">
+                <label for="ime">Ime</label>
+                <label for="prezime">Prezime</label>
+                </div>
+                <div class="input">
+                <input type="text" class="ime" id="ime" required>
+                
+                <input type="text" class="prezime" id="prezime" required>
+            
+            </div>
+                <label for="email">Email</label>
+                <input type="email" class="email" id="email" required>
+                <label for="telefon">Telefon</label>
+                <input type="tel" class="telefon" id="telefon">
+                <label for="datum">Datum</label>
+                <input type="date" class="datum" id="datum">
+                <label for="usluga">Tip Usluge</label>
+                <input type="text" class="usluga" id="usluga" required>
+                <label for="komentari">Komentari i Pitanja</label>
+                <textarea class="komentari" id="komentari" rows="4" placeholder="Vaša Pitanja i Komentari" style="resize: none;"></textarea>
+                <input type="submit" value="Pošalji">
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="smanji">
+            <div class="footer">
+                <div class="logo">
+                    <img src="../slike/logo-footer.png" alt="logo">
+                </div>
+                
+                <div class="ikonice">
+                    <div class="omotac">
+                        <div class="ikonica">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="ikonica">
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="ikonica">
+                            <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="linkovi">
+                    <a href=""><span>Spa Policy</span></a>
+                    <a href=""><span>Order & Payments</span></a>
+                    <a href=""><span>Return & Exchange</span></a>
+                    <a href=""><span>Terms & Conditions</span></a>
+                </div>
+                <div class="tekst">
+                    <p>&copy; 2024 Zen Spa. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

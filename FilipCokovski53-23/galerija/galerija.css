@@ -1,0 +1,68 @@
+.josefin-sans-regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.josefin-sans-bold {
+  font-family: "Josefin Sans bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color:#f1efe7;
+    margin: 0;
+    padding: 0;
+}
+.galerija-header-naslov h1{
+    color: white;
+    font-size: 48px;
+}
+.galerija-omotac{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto;
+}
+.slike1 , .slike2 , .slike3{
+
+    margin: 0 auto;
+
+}
+.slika{
+    margin: 5px 5px;
+}
+.slika img {
+    width: 500px;
+    height: 400px;
+ 
+}
+
+@media only screen and (max-width: 600px) {
+
+    nav ul {
+        height: 100px;
+    }
+    .galerija-header-naslov h1{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .ovde{
+        display: none;
+    }
+    .galerija-omotac{
+        width: 95%;
+        margin: 0 auto;
+        display: block;
+    }
+    .slike1{
+        margin: 0;
+        padding: 0;
+    }
+    .slika img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}

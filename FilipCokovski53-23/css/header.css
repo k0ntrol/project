@@ -1,0 +1,142 @@
+header {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #f1efe7;
+  }
+  .smanji {
+    width: 80%;
+    margin: 0 auto;
+  }
+  header .pocetna-header-slika {
+    background-image: url(../slike/pocetna.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+    zoom: normal;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 50px 0;
+    margin-top: 30px;
+  }
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  nav ul li a {
+    color: rgb(234, 233, 233);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 10px;
+    transition: border-bottom 50ms ease-in-out;
+  }
+  nav ul li a:hover {
+    font-weight: 700;
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+  header .logo img {
+    width: 200px;
+  }
+  header .omotac {
+    display: flex;
+    justify-content: space-around;
+  }
+  .naslov-header {
+    width: 600px;
+    height: 350px;
+    margin: 0px auto;
+  }
+  .naslov-header .naslov {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 100px;
+  }
+  header .dugmelink {
+    background-color: #252225f5;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 18px 31px;
+    text-decoration: none;
+    transition: opacity 200ms ease-in;
+  }
+  .dugmelink:hover {
+    opacity: 70%;
+  }
+  header .onama-header-slika,
+  header .kontakt-header-slika,
+  header .galerija-header-slika,
+  header .usluge-header-slika {
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 400px;
+    background-size: 100vw;
+  }
+  header .onama-header-slika {
+    background-image: url(../slike/onama.jpg);
+    background-position: top;
+  }
+  header .kontakt-header-slika {
+    background-image: url(../slike/kontakt-header.jpg);
+    background-position: top;
+  }
+  header .galerija-header-slika {
+    background-image: url(../slike/galerija-header.jpg);
+    background-position: top;
+  }
+  header .usluge-header-slika {
+    background-image: url(../slike/usluge-header.jpg);
+    background-position: bottom;
+  }
+@media only screen and (max-width: 600px){
+    .pocetna-header-slika{
+        height: 100%;
+        width: 100%;
+        background-size: 200%;
+    }
+    nav ul li{
+        display: block;
+        line-height: 2rem;
+    }
+    nav ul li a{
+        font-weight: 700;
+    }
+    .omotac{
+      width: 80%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    header .logo{
+        display: none;
+    }
+    .naslov-header{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    .naslov h1{
+        font-size: 50px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+
+      
+
+
+}
